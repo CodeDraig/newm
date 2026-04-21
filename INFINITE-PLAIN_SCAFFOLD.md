@@ -1,7 +1,7 @@
-# gridwm — scaffolding document
+# infiniteplain — scaffolding document
 
 A scaffold for a new Rust X11 window manager inspired by newm's infinite 2D
-grid UX. The name `gridwm` is a placeholder — replace throughout.
+grid UX.
 
 This document is meant to be copied into a fresh repo (or used as a design
 note alongside one) and fleshed out into real code. It does **not** aim to
@@ -34,7 +34,7 @@ be runnable itself.
 ## 2. Repo layout
 
 ```
-gridwm/
+infinite-plain/
 ├── Cargo.toml
 ├── Cargo.lock
 ├── README.md
@@ -64,7 +64,7 @@ gridwm/
 
 ```toml
 [package]
-name = "gridwm"
+name = "infinite-plain"
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.74"
